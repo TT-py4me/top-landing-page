@@ -1,24 +1,37 @@
 .body{
-
+    display:flex;
+    flex-direction:column;
 }
 
-.header{
+.header,.footer{
     background-color: #1F2937;
+    display:flex;
+    flex-direction:column;
 }
 .top{
-
+    display:flex;
+    flex:1 1 auto;
+    align-items:center;
 }
 #Logo{
     color: #F9FAF8;
     font-size:24px;
+    display:flex;
 }
 .headerlinks{
     color:#E5E7EB;
-    font-size:18px; 
+    font-size:18px;
+    margin-left:auto;
+    display:flex;
+    justify-content:space-between;
+    text-decoration: none;
+}
+a{
+    list-style-type: none;
 }
 
 .herocontainer{
-    
+    display:flex;
 }
 .header h1{
     color: #F9FAF8;
@@ -35,6 +48,7 @@
 }
 .header img {
     size:100px;
+    display:flex;
 }
 
 .info-section{
@@ -69,3 +83,10 @@
     color:#E5E7EB;
     border-color:#E5E7EB;
 }
+
+.footer{
+    color:#F9FAF8;
+    margin-top:auto;
+}
+
+/*Add images, use flex, add index.html*/
