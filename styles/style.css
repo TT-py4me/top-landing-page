@@ -1,5 +1,6 @@
 .body{
     display:flex;
+    flex:1;
     flex-direction:column;
 }
 
@@ -9,6 +10,7 @@
     flex-direction:column;
     margin:0;
     padding: 20px 200px;
+    flex:auto;
 }
 .top{
     display:flex;
@@ -37,6 +39,7 @@ a{
 .headerbody{
     display:flex;
     padding: 40px 0px;
+    flex:1 1 auto;
 }
 .herocontainer{
     display:flex;
@@ -70,41 +73,81 @@ a{
 }
 
 .info-section{
-    
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 20px 40px;
 }
 .info-section h1{
     color:#1F2937;
     font-size:36px;
     font-weight:bolder;
+    display:flex;
+    align-self:center;
+    
 }
-.info-section {
-    color:#3882F6;
+.info-section div div{ /*images with additional text*/
+    color:#000000;
+    display:flex;
+    flex-direction: column;
+    width:25%;
+    justify-content: center;
+    align-items:center;
+    box-sizing: border-box;
+    padding: 5px;
 }
-.info-section div{ /*images with additional text*/
-
+.info-section div div img{
+    height:150px;
+    display:flex;
+    align-self: center;
+    background-color:#ffffff;
+    border: 5px solid #3882F6;
+    border-radius: 25px;
+}
+.info-section div{ 
+    display:flex;
 }
 
 .quote-section{
     background-color:#E5E7EB;
     font-size:36px;
     font-style:"light italic";
-    color:#1F2937
+    color:#1F2937;
+    padding:50px 350px;
     
 
 }
 .call-to-action{
     background-color:#3882F6;
     color:#E5E7EB;
+    display:flex;
+    flex:1;
+    align-items:center;
+    justify-content:space-between;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+    margin: 50px 250px;
+    padding:20px 100px;
+    height:100px;
+
 }
 .call-to-action button{
     background-color:#3882F6;
     color:#E5E7EB;
     border-color:#E5E7EB;
+    height:40px;
+    width: 90px;
+    border: 1px solid #ffffff;
+    border-radius:4px;
+    font-weight:bold;
 }
 
 .footer{
     color:#F9FAF8;
     margin-top:auto;
+    display:flex;
+    justify-content: center;
+    align-items:center;
 }
 
 /*Add images, use flex, add index.html*/
