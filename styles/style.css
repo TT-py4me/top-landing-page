@@ -5,6 +5,9 @@
 .header{
     background-color: #1F2937;
 }
+.top{
+
+}
 #Logo{
     color: #F9FAF8;
     font-size:24px;
@@ -13,6 +16,7 @@
     color:#E5E7EB;
     font-size:18px; 
 }
+
 .herocontainer{
     
 }
@@ -31,4 +35,37 @@
 }
 .header img {
     size:100px;
+}
+
+.info-section{
+    
+}
+.info-section h1{
+    color:#1F2937;
+    font-size:36px;
+    font-weight:bolder;
+}
+.info-section {
+    color:#3882F6;
+}
+.info-section div{ /*images with additional text*/
+
+}
+
+.quote-section{
+    background-color:#E5E7EB;
+    font-size:36px;
+    font-style:"light italic";
+    color:#1F2937
+    
+
+}
+.call-to-action{
+    background-color:#3882F6;
+    color:#E5E7EB;
+}
+.call-to-action button{
+    background-color:#3882F6;
+    color:#E5E7EB;
+    border-color:#E5E7EB;
 }
